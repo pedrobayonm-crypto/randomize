@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Fit Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>RANDOM FIT GENERATOR</h1>
+        <p>Tu pinta, tu estilo, tu suerte.</p>
+    </header>
+
+    <main>
+        <section class="prendas">
+
+            <div class="tarjeta">
+                <div class="imagen">
+                    <img id="camiseta" src="imagenes/camiseta1.jpeg" alt="Camiseta">
+                    <span class="emoji">👕</span>
+                </div>
+                <h2>CAMISETA</h2>
+                <p>01 / TOP</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="imagen">
+                    <img id="pantalon" src="imagenes/pantalon1.jpeg" alt="Pantalón">
+                    <span class="emoji">👖</span>
+                </div>
+                <h2>PANTALÓN</h2>
+                <p>02 / BOTTOM</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="imagen">
+                    <img id="medias" src="imagenes/medias1.jpg" alt="Medias">
+                    <span class="emoji">🧦</span>
+                </div>
+                <h2>MEDIAS</h2>
+                <p>03 / SOCKS</p>
+            </div>
+
+            <div class="tarjeta">
+                <div class="imagen">
+                    <img id="zapatos" src="imagenes/zapatos1.jpg" alt="Zapatos">
+                    <span class="emoji">👟</span>
+                </div>
+                <h2>ZAPATOS</h2>
+                <p>04 / SHOES</p>
+            </div>
+
+        </section>
+
+        <p id="mensaje">TU PRÓXIMA PINTA TE ESTÁ ESPERANDO.</p>
+
+        <button id="randomize">⟳ RANDOMIZE</button>
+
+        <button id="musicButton">♫ ACTIVAR MÚSICA</button>
+
+        <audio id="musicaFondo" loop preload="none">
+            <source src="musica/tienda.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+
+    <footer>
+        <p>MADE FOR YOUR STYLE.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
